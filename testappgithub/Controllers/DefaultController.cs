@@ -9,6 +9,10 @@ namespace testappgithub.Controllers
     public class DefaultController : Controller
     {
         // GET: Default
+         public ActionResult Index1()
+        {
+            return View();
+        }
         public ActionResult Index()
         {
             return View();
